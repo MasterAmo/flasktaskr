@@ -23,11 +23,6 @@ h2 {
   font-size: 1.5em;
 }
 
-label {
-  display: block;
-  font-weight: bold;
-}
-
 .page {
   margin: 2em auto;
   width: 50em;
@@ -74,10 +69,6 @@ label {
 .error {
   background: #f0d6d6;
   padding: 0.5em;
-}
-
-.input-group {
-  margin-bottom: 15px;
 }
 
 .datagrid table {
@@ -137,4 +128,13 @@ label {
   margin: 0;
   text-decoration: none;
   position: relative;
+}
+
+.inline-form .input-group {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.input-group input {
+  width: 100%;
 }
