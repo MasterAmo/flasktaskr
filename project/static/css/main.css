@@ -67,8 +67,9 @@ h2 {
 }
 
 .error {
-  background: #f0d6d6;
-  padding: 0.5em;
+  color: red;
+  font-size: 0.8em;
+  background-color: #ffffff;
 }
 
 .datagrid table {
@@ -128,13 +129,4 @@ h2 {
   margin: 0;
   text-decoration: none;
   position: relative;
-}
-
-.inline-form .input-group {
-  display: inline-block;
-  margin: 10px 5px;
-}
-
-.input-group input {
-  width: 100%;
 }
